@@ -1,0 +1,19 @@
+.blue{
+    background-color: lightseagreen;
+    color: black;
+    size: 15px;
+    margin-right: 8px;
+    padding: 20px;
+  
+    
+
+}
+.select{
+background-color: aqua;
+
+}
+li{
+    background-color:firebrick;
+    color: black;
+    padding: 20px;
+}

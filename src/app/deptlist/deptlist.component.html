@@ -1,0 +1,16 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-3 bg-light"></div>
+        <div class="col-md-3">'
+            <h3 class="bg-danger "> Department tlist works!</h3>
+<ul *ngFor="let dapt of departments" >
+    <li  (click)="onselect(dapt)" [class.select]='IsSelected(dapt)'>
+    <span class="blue">{{dapt.id}}</span> 
+       {{dapt.name}}
+    </li>
+</ul>
+</div>
+<div class="col-md-3 bg-primary"></div>
+<div class="col-md-3 bg-success" ></div>
+</div>
+</div>
